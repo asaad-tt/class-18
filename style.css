@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+}
+.menu-div{
+    background: #000000;
+    height: 50px;
+    
+}
+.menu-div ul{
+    text-align: center;
+    
+}
+.menu-div ul li{
+    display: inline-block;
+    margin-top: 10px;
+    
+}
+
+.menu-div ul li a{
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.menu-div ul li a:hover{
+    color: #fc5c65;
+}
+
+.div-two{
+    background: #DDDDDD;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    background: url(./lauren-mancke-aOC7TSLb1o8-unsplash.jpg);
+    height: 500px;
+    background-size: cover;
+    position: relative;
+}
+
+/* div-1 */
+
+.div-1{
+    width: 100px;
+    height: 134px;
+    background: #000000;
+    position: absolute;
+    top: 149px;
+    left: 175px;
+}
+.div-1 ul{
+    list-style: none;
+}
+.div-1 ul li{
+    padding: 6px;
+}
+.div-1 ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+.div-1 ul li::before{
+    content: "\f5d0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: red;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* div-2 */
+.div-2{
+    width: 139px;
+    height: 138px;
+    background: #000000;
+    position: absolute;
+    top: 148px;
+    left: 357px;
+}
+.div-2 ul{
+    list-style: none;
+}
+.div-2 ul li{
+    padding: 6px;
+}
+.div-2 ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+.div-2 ul li::before{
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: rgb(159, 240, 163);
+    display: inline-block;
+    margin-right: 10px;
+}
+.div-2 ul li::after{
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: rgb(159, 240, 163);
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* div-3 */
+
+.div-3{
+    width: 100px;
+    height: 137px;
+    background: #000000;
+    position: absolute;
+    top: 150px;
+    left: 571px;
+}
+.div-3 ul{
+    list-style: none;
+}
+.div-3 ul li{
+    padding: 6px;
+}
+.div-3 ul li a{
+    color: #ffffff;
+    text-decoration: none;   
+}
+
+.div-3 ul li::before{
+    content: "\f35a";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+    color: rgb(65, 124, 235);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+/* footer */
+
+.footer-div{
+    background: #000000;
+    height: 76px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.footer-div p{
+    color: #ffff;
+}
+.social-menu ul li{
+    display: inline-block;
+    padding: 4px 5px;
+    font-size: 20px;
+
+}
+.social-menu ul li a{
+    color: #5EA5FA;
+}
